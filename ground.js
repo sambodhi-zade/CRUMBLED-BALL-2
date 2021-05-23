@@ -21,6 +21,4 @@ class ground {
        rect(this.ground.position.x,this.ground.position.y,1200,15);
        pop();
     }
-};
-
-cbbbnbn                                                                    
+};                                                           

@@ -16,7 +16,8 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paperObject=new paper(40,40,20);
+
+	paperObject=new Paper(40,40,20);
 	groundObject=new ground(1000,450);
 	dustbinObj=new 	dustbin(600,400);
 	//Create a Ground

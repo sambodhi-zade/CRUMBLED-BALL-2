@@ -9,7 +9,7 @@ class dustbin {
         this.leftbody=Bodies.rectangle(x-100+10+40,y-60-10-50,20,100,options)
         this.rightbody=Bodies.rectangle(x+100-40, y-60-10-50,20,100,options)
         this.centrebody=Bodies.rectangle(x,y-60,100,20,options)
-        this.image=loadImage("Images/dustbingreen.png");
+        this.image=loadImage("dustbingreen.png");
         World.add(world, this.leftbody);
         World.add(world, this.rightbody);
         World.add(world, this.centrebody);
